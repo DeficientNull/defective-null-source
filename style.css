@@ -24,11 +24,27 @@ h2 {
 button {
     font-size: 45px;
     font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color: lightblue;
+}
+ol {
+    font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+    line-height: 2;
+    margin-right: 240px;
+    font-size: 20px;
+    color: lightgray;
+}
+footer {
+    color: lightgray;
+    font-size: 24px;
+    font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .sheaderspace {
     background-color: lightblue;
-    padding-left: 40px;
-    padding-right: 60px;
+    padding-left: 52px;
+    padding-right: 144px;
     display: flex;
     flex-direction: row;
     align-content: stretch;
@@ -40,4 +56,25 @@ button {
     font-family: "Young Serif", Arial, Helvetica, sans-serif;
     font-size: 100px;
     color: rgb(35, 39, 46);
+}
+.socialmedia {
+    font-size: 24px;
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    color: lightgray;
+    background-color: rgb(35, 39, 46);
+}
+.spacer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer {
+    margin-left: 60px;
+    margin-right: 8opx;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
 }
